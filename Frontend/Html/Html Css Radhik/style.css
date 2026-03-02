@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Poppins;
+}
+
+/* NAVBAR */
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    padding:20px 60px;
+    background:#5c3a2e;
+    color:white;
+    position:fixed;
+    width:100%;
+    top:0;
+    z-index:1000;
+}
+
+.navbar nav a{
+    color:white;
+    margin:15px;
+    text-decoration:none;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.navbar nav a:hover{
+    color:#ffd166;
+}
+
+/* HERO SECTION */
+.hero{
+    height:100vh;
+    background:url("https://images.unsplash.com/photo-1511920170033-f8396924c348") center/cover;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    color:white;
+}
+
+.hero-text{
+    animation: fadeIn 2s ease-in;
+}
+
+.hero button{
+    margin-top:20px;
+    padding:12px 25px;
+    border:none;
+    background:#ffd166;
+    font-size:18px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.hero button:hover{
+    transform:scale(1.1);
+}
+
+/* FEATURES */
+.features{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    padding:60px;
+    background:#fff4ec;
+}
+
+.card{
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.2);
+    transition:0.4s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+}
+
+/* MENU */
+.menu{
+    padding:80px;
+    text-align:center;
+}
+
+.menu-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+    gap:25px;
+    margin-top:30px;
+}
+
+.menu-card{
+    padding:40px;
+    background:#fff4ec;
+    border-radius:15px;
+    font-size:20px;
+    transition:0.4s;
+}
+
+.menu-card span{
+    color:#5c3a2e;
+    font-weight:bold;
+}
+
+.menu-card:hover{
+    transform:scale(1.1);
+}
+
+/* ABOUT + CONTACT */
+.about, .contact{
+    padding:80px;
+    text-align:center;
+    background:#fffaf6;
+}
+
+/* FOOTER */
+footer{
+    background:#5c3a2e;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+/* ANIMATION */
+@keyframes fadeIn{
+    from{opacity:0; transform:translateY(50px);}
+    to{opacity:1; transform:translateY(0);}
+}

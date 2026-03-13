@@ -3,19 +3,103 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Indian Cricket Team</title>
+    <title>Cricket World</title>
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-    <h1 style="text-align: center; color: rgb(87, 87, 245);">Indian Cricket Team</h1>
+  
     <div>
-        <nav style="display: flex;">
+        <nav class="nav">
             <a href="HomePage.html" style="margin-left: 1cm; text-align: center;">Home</a>
-            <a href="About.html" style="margin-left:  1cm;">About</a>
             <a href="Players.html" style="margin-left:  1cm;">Players</a>
-            <a href="Achievements.html" style="margin-left:  1cm;">Achievements</a>
-            <a href="Contact.html" style="margin-left:  1cm;">Contact</a>
+            <a href="/Match/MatchSchedule.html" style="margin-left:  1cm;">Match Schedule</a>
+            <a href="/Achivements/Achivements.html" style="margin-left:  1cm;">Achievements</a>
+            <a href="/Highlights/Highlights.html" style="margin-left:  1cm;">Highlights</a>
+            <a href="/News/news.html" style="margin-left:  1cm;">News</a>
+            <a href="/IPL/Ipl.html" style="margin-left:  1cm;">IPL</a>
             
         </nav>
     </div>
+
+    <section class="hero">
+       <img src="/Images/herosection.webp" alt="Hero Image" width="1500" height="650">
+    </section>
+    
+    <section class="livescore">
+            <h2>Live Cricket Score</h2>
+            <div class="scorecard">
+            <h3>India vs Australia</h3>
+            <p><strong style="color: rgb(3, 182, 253);">India:</strong> 252 / 3 (18 overs)</p>
+            <p><strong style="color: yellow;">Australia:</strong> Yet to Bat</p>
+            <p style="color: rgb(234, 20, 180);">Status: India Batting</p>
+            </div>
+    </section>
+
+
+
+
+    <h2>Match Schedule</h2>
+
+    <section class="matchschedule">
+        
+        <table border="3" cellpadding="50" >
+            <tr>
+                <th>Match</th>
+                <th>Team1</th>
+                <th>Team2</th>
+                <th>Date</th>
+                <th>Stadium</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td rowspan="3">India</td>
+                <td>Australia</td>
+                <td>1 March</td>
+                <td>Kolkata</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>England</td>
+                <td>6 March</td>
+                <td>Mumbai</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                
+                <td>Pakistan</td>
+                <td>8 March</td>
+                <td>Pune</td>
+            </tr>
+        </table>
+    </section>
+
+        
+    <h2>Cricket Highlights Section</h2>
+    <section class="section">
+        
+        <iframe width="700" height="400" src="https://www.youtube.com/embed/yC9NfyI7yR8?si=kSKJTQSMRLCM1hyD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="margin-left: 20px;"></iframe>
+
+        <iframe width="700" height="400" src="https://www.youtube.com/embed/MAm0RLQpYas?si=eJ-od-aC5QbJVwYi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="margin-left: 40px;"></iframe>
+    </section>
+
+    <footer>
+    <p>Cricket World</p>
+
+    <p>
+        <a href="/MainFiles/HomePage.html">Home</a> |
+        <a href="/MainFiles/Players.html">Players</a> |
+        <a href="/Match/MatchSchedule.html">Match Schedule</a> |
+        <a href="/Achivements/Achivements.html">Achievements</a> |
+        <a href="/Highlights/Highlights.html">Highlights</a>
+    </p>
+
+    <p>
+        Follow cricket updates from the official websites like 
+        <a href="https://www.icc-cricket.com">ICC</a> and 
+        <a href="https://www.iplt20.com">IPL</a>
+    </p>
+
+    <p>© 2026 Cricket World | All Rights Reserved</p>
+</footer>
 </body>
 </html>

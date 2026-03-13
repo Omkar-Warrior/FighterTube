@@ -1,0 +1,72 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style-type: none;
+    background-color: black;
+    
+}
+li{
+    color: white;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+li:hover{
+    background-color: lightgray;
+    color:red;
+}    
+#hero{
+    background-image: url("/Day7/man_smoke.jpg");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.heroh1,.heroh4{
+    text-align: center;
+    color:white;
+}
+.heroh4{
+    margin-top:10px;
+}
+.heroh1{
+    padding-top: 400px;
+}
+#title{
+    width: 800px;
+    margin:0 auto;
+    text-align: center;
+}
+#theband{
+    letter-spacing: 5px;
+    margin-top:50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.music{
+    font-style: italic;
+    margin-top: 50px;
+    color:lightgray;
+}
+.detail{
+    text-align: justify;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.members{
+    display: inline-block;
+    margin-right: 30px;
+}
+.dates{
+    width: 800px;
+    padding: 20px;
+    background-color: lightgray;
+    margin:0 auto;
+}
+.sold{
+    background-color: red;
+    color:white;
+    padding: 5px;
+
+}

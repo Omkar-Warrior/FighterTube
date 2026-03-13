@@ -1,0 +1,6 @@
+p{
+    columns: 6;
+    text-align: justify;
+    column-rule: 5px solid gray;
+    column-gap: 30px;
+}

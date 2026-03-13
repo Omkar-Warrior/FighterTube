@@ -1,0 +1,20 @@
+.x1{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(823, 141, 141);
+    border: 1px solid red;
+}
+
+.x2{
+    width: 400px;
+    height: 400px;
+    background-color: #000;
+    border: 1px solid red;
+}
+
+.x3{
+    width: 400px;
+    height: 400px;
+    background-color: hsl(300,50%, 90%);
+    border: 1px solid red;
+}

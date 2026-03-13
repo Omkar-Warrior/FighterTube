@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+p{
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    
+}
+.p1{
+    background-color: red;
+    float: left;
+}
+.p2{
+    background-color: blue;
+    float: right;
+}
+.p3{
+    background-color: rgb(9, 251, 5);
+    clear: both;
+}
+.p4{
+    background-color: brown;
+}

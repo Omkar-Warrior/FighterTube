@@ -1,0 +1,45 @@
+h1{
+    text-shadow: 10px 10px 5px pink;
+    direction: rtl;
+}
+.p1{
+ text-align: left;
+}
+.p2{
+    text-align: center;
+}
+.p3{
+    text-align: right;
+}
+.p4{
+    text-decoration: underline;
+    text-align: center;
+    text-decoration-color: brown;
+    text-decoration-style: dotted;
+    text-decoration-thickness: 5px;
+}
+.p5{
+    text-decoration: overline;
+}
+.p6{
+    text-decoration: line-through;
+}
+.p7{
+ text-transform: lowercase;
+}
+.p8{
+    text-transform: uppercase;
+}
+.p9{
+    text-transform: capitalize;
+}
+.p10{
+    text-indent: 30px;
+}
+.p11{
+    letter-spacing: 10px;
+}
+.p12{
+    line-height: 30px;
+    white-space: nowrap;
+}

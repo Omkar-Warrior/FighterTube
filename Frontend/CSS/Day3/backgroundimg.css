@@ -1,0 +1,10 @@
+body{
+   
+    background-image: url('/Day3/download.webp');
+    color: red;
+    height: 500px;
+    width: 500px;
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

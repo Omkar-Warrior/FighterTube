@@ -1,0 +1,23 @@
+body{
+    background-color: blueviolet;
+}
+div{
+    width: 300px;
+    height: 300px;
+}
+.d1{
+    background-color: red;
+    border: 5px solid rgb(8, 8, 8);
+   
+}
+
+.d2{
+    background-color: green;
+     border: 2px solid rgb(8, 8, 8);
+     border-radius: 50%;
+    
+}
+
+button{
+    border-radius: 30px;
+}

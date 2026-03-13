@@ -1,0 +1,50 @@
+/* 
+Block Level Elements
+1. always start from new line
+2. will occpy whole width of container
+3. width and height applied
+4. top bottom margin applied
+
+Block Line Elements
+1. never start from new line
+2. will occpy size as per content
+3. width and height not applied
+4. top bottom margin not applied
+*/
+
+
+/* Display Properties are
+inline
+block 
+inline block */
+
+div{
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    width: 500px;
+    /* display: inline; */
+    height: 100px;
+}
+
+.d1{
+    background-color: purple;
+    display: inline-block;
+    
+   
+}
+
+.d2{
+    background-color: brown;
+    display: inline-block;
+    
+}
+a{
+    background-color: yellow;
+    display: block;
+    width: 200px;
+    height: 200px;
+}
+
+
+

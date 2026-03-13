@@ -1,0 +1,40 @@
+body{
+    font-size: 20px;
+    background-color: black;
+}
+table{
+    padding: 20px;
+    background-color: aqua;
+    margin-left:250px; 
+    margin-top: 100px;
+
+}
+#r1{
+    color: white;
+    background-color: green;
+}
+
+#r3{
+    color: white;
+    background-color: orange;
+}
+
+#r5{
+    color: white;
+    background-color: black;
+}
+
+#r7{
+    color: white;
+    background-color: rgb(93, 93, 12);
+}
+
+#r9{
+    color: white;
+    background-color: rgb(224, 27, 198);
+}
+
+#r11{
+    color: white;
+    background-color: rgb(61, 111, 227);
+}

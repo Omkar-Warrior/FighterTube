@@ -1,6 +1,17 @@
-p{
+body{
+background-color: rgb(227, 232, 238);
+}
+div{
     columns: 6;
     text-align: justify;
     column-rule: 5px solid gray;
     column-gap: 30px;
+}
+h1{
+    column-span: all;
+    text-align: center;
+    color: rgb(233, 20, 20);
+    font-size: 50px;
+    background-color: white;
+    
 }

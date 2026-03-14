@@ -1,0 +1,31 @@
+/* 
+Units in CSS
+1.Absolute Units
+   1.cm centimeter
+   2.in INch
+   3.px Pixels
+   4.pt Point
+   5.mm Milimeter
+   6.pc picas
+
+2. Relative Units
+   1.% Percentage
+   2.vh view port height
+   3.vw view post width
+   4.em related to parent
+   5.rem related to html(root)
+   6.vmin small of vw or vh
+   7.vmax larger of vw or vh
+   8.ch width of character "0"   
+
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+div{
+    width: 80%;
+    height: 300px;
+    background-color: blueviolet;
+}

@@ -1,0 +1,21 @@
+div{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    margin-left: 50px;
+}
+
+.d1{
+    background-color: red;
+    opacity: 30%;
+}
+
+.d2{
+    background-color: rgb(32, 138, 50);
+    opacity: 50%;
+}
+
+.d3{
+    background-color: rgba(38, 0, 255, 0.586);
+    opacity: 70%;
+}

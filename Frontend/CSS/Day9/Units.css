@@ -23,9 +23,32 @@ Units in CSS
     margin: 0;
     padding: 0;
 }
-
-div{
+body{
+    height: 800px;
+}
+.d1{
     width: 80%;
     height: 300px;
     background-color: blueviolet;
+    font-size: 30px;
+}
+
+p{
+    color: white;
+    font-size: 2rem;
+    background-color: red;
+    width: 10vw;
+}
+
+.d2{
+    width: 300px;
+    height: 500px;
+    background-color: green;
+    margin: 50 auto;
+    min-width: 200px;
+    max-width: 800px;
+    min-height: 200px;
+    max-height: 600px;
+    resize: both;
+    overflow: auto;
 }

@@ -1,0 +1,54 @@
+ *{
+            margin: 0;
+            padding: 0;
+        }
+        .d1{
+            height: 100px;
+            background-color: rgb(109, 38, 38);
+            width:29%;
+            display:inline-block;
+        }
+        .d2{ 
+            height: 100px;
+            background-color: greenyellow;
+            width: 70%;
+            display: inline-block;
+        }
+        .d3{
+            height: 150px;
+            background-color: red;
+
+        }
+        .d4{
+            height: 250px;
+            background-color: green;
+        }
+        .d5{
+            height: 150px;
+            background-color:darkblue;
+            float:right;
+            width: 50%;
+            overflow: auto;
+        }
+        @media only screen and (max-width:800px){
+            .d4{
+                height: 150px;
+            }
+            .d5{
+                width: 70%;
+            }
+        }
+           @media only screen and (max-width:600px){
+            .d1{
+                width: 100%;
+                display: block;
+                height: 50px;
+            }
+            .d2{
+                width: 100%;
+                
+            }
+            .d5{
+                width: 70%;
+            }
+        }

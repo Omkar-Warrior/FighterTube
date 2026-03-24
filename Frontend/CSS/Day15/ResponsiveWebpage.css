@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+div{
+    height: 100px;
+    color: white;
+    font-size: 80px;
+    text-align: center;
+    display: inline-block;
+}
+
+.d1{
+    background-color: darkslateblue;
+    width: 68%;
+}
+
+.d2{
+    background-color: maroon;
+    width: 25%;
+}
+
+@media only screen and (max-width:900px){
+    .d1, .d2{
+        width: 49%;
+    }
+}
+
+@media only screen and (max-width:600px){
+    .d1, .d2{
+        width: 100%;
+        font-size: 40px;
+    }
+
+    .d1{
+        margin-bottom: 40px;
+        background-color: orange;
+    }
+    .d2{
+        background-color: palevioletred;
+    }
+}

@@ -1,0 +1,79 @@
+a{
+    margin-left: 155px;
+    margin-top: 100px;
+}
+
+a:link{
+    color: rgb(150, 235, 135);
+}
+
+a:active{
+    color: blue;
+
+}
+a:visited{
+    color: purple;
+}
+
+
+
+
+input{
+    margin-top: 30px;
+    width: 300px;
+}
+
+input:focus{
+    border: 5px solid orange;
+    background-color: rgb(155, 154, 154);
+    outline: none;
+}
+
+
+li:last-child{
+    background-color: pink;
+    text-decoration: underline;
+}
+
+li:first-child{
+    color: orange;
+}
+
+li:nth-child(4){
+    text-shadow: 2px 3px 5px red;
+    font-size: 40px;
+}
+
+
+p:nth-of-type(even){
+    background-color: yellow;
+}
+
+p:first-of-type{
+    font-size: 40px;
+}
+
+p:last-of-type{
+    font-size: 10px;
+}
+
+
+div:empty{
+    background-color: blue;
+    height: 100px;
+}
+
+p:not(.p){
+    background-color: orange;
+    font-size: 50px;
+}
+
+input:required{
+    border: 5px solid purple;
+    background-color: pink;
+}
+
+input:checked{
+    height: 30px;
+    border: green;
+}

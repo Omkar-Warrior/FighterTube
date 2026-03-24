@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @keyframes anim1 {
+    0%{width: 300px;}
+    100%{width: 600px;}
+}
+div{
+    width: 300px;
+    height: 100px;
+    background-color: darkgreen;
+    animation-name: anim1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    color:white;
+    font-size: 40px;
+    text-align: center;
+}
+.d1{
+    background-color: red;
+    animation-timing-function: ease;
+}
+.d2{
+    background-color: blue;
+    animation-timing-function: ease-in;
+
+}
+.d3{
+    background-color: green;
+    animation-timing-function: ease-out;
+
+}
+.d4{
+    background-color: aqua;
+    animation-timing-function: ease-in-out;
+
+}
+.d5{
+    background-color: orange;
+    animation-timing-function: linear;
+}
+.d6{
+    background-color: steelblue;
+    animation-timing-function: cubic-bezier(.05,.92,.95,.02);
+}
+    </style>
+</head>
+<body>
+    <div class="d1">Ease</div>
+    <div class="d2">Ease In</div>
+    <div class="d3">Ease Out</div>
+    <div class="d4">Ease In Out</div>
+    <div class="d5">Linear</div>
+    <div class="d6">Cubit Bezier</div>
+</body>
+</html>

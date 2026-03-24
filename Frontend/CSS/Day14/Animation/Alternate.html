@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        div{
+            width: 300px;
+            height: 100px;
+            animation: anim 3s ease-in-out infinite;
+        }
+        .d1{
+            background-color: plum;
+            animation-direction: alternate;
+        }
+        .d2{
+            background-color: rgb(81, 229, 47);
+            animation-direction: alternate-reverse;
+        }
+        @keyframes anim {
+            0%{width: 200px;}
+            100%{
+                width: 500px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="d1"></div><br><br>
+    <div class="d2"></div>
+</body>
+</html>

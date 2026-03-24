@@ -1,0 +1,21 @@
+body{
+    background-color: black;
+}
+
+header{
+    background-color: rgb(41, 41, 41);
+    padding: 10px;
+}
+
+nav a{
+    font-size: 30px;
+    text-decoration: none;
+    color: aqua;
+    margin-left: 200px;
+}
+
+@media screen {
+    nav a {
+        font-size: 10;
+    }
+}

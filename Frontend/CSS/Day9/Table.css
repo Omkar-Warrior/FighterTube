@@ -1,0 +1,35 @@
+body{
+    background-color: black;
+}
+table{
+    width: 700px;
+    margin: 0 auto;
+    border: 1px solid black;
+    padding: 20px;
+    background-color: rgb(220, 220, 132);
+    border-collapse: collapse;  
+    /* Border Collapse is the important property for the making the table */
+     text-align: center;
+     box-shadow: 5px 5px 50px orange;
+}
+
+th{
+    background-color: rgba(1, 145, 242, 0.618);
+    padding: 20px;
+}
+td{
+    
+    padding: 20px;
+   
+}
+
+th,td{
+    border: 1px solid black;
+}
+
+td:hover{
+    background-color: pink;
+}
+tr:hover{
+    background-color: rgb(246, 241, 242);
+}

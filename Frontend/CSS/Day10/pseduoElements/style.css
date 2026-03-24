@@ -1,0 +1,30 @@
+
+.p1::first-letter{
+    color:steelblue;
+    border:3px solid black;
+    font-size: 40px;
+    padding: 10px;
+    background-color: bisque;
+}
+.p2::first-line{
+    color:bisque;
+}
+.p3::after{
+    content: "Sold Out";
+    color:white;
+    background-color: red;
+    padding:5px;
+    font-size: 20px;
+}
+.p3::before{
+    content: "😀";
+    font-size: 40px;
+
+}
+.p4::selection{
+    background-color: yellowgreen;
+    color:red;
+}
+input::placeholder{
+    color:red;
+}

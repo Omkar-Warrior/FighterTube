@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Var Function</title>
+    <style>
+       :root{
+    --divcolor: pink;
+    --textcolor: red;
+    --bordercolor: rgb(139, 21, 21);
+}
+
+div{
+    background-color: var(--divcolor);
+}
+
+p{
+    display: inline-block;
+    color: var(--textcolor);
+    width: 200px;
+    border: 3px solid var(--bordercolor);
+    padding: 20px;
+    text-align: center;
+    border-radius: 40px;
+    font-size: 30px;
+    margin-right: 20px;
+}
+    </style>
+</head>
+<body>
+    <div>
+        <p>paragraph</p>
+         <p>paragraph</p>
+          <p>paragraph</p>
+           <p>paragraph</p>
+    </div>
+
+    <div>
+        <p>paragraph</p>
+    </div>
+
+    <div>
+        <p>paragraph</p>
+    </div>
+
+    <div>
+        <p>paragraph</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        div{
+            width: 100%;
+            height: 200px;
+            position: relative;
+            overflow: hidden;
+            background-color: #f0f0f0;
+        }
+        img{
+            width: 200px;
+            position: relative;
+            animation: bhag 5s linear infinite;
+            /*animation-delay: 2s;*/
+        }
+        @keyframes bhag {
+            0%{
+                left:-200px;
+            }
+            100%{
+                left: 100%;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <img src="/Day13/OIP.webp" alt="" >
+    </div>
+</body>
+</html>

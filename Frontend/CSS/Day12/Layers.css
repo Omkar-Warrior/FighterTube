@@ -1,0 +1,35 @@
+.d{
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+    position: relative;
+    border:1px solid black;
+}
+#d1{
+    background-color: red;
+    z-index: 80;
+}
+#d2{
+    background-color: purple;
+    top:-100px;
+    left:100px;
+    z-index: 40;
+}
+#d3{
+    background-color: rgb(58, 32, 171);
+    top:-200px;
+    left:200px;
+    z-index: 100;
+}
+#d4{
+    background-color: rgb(43, 230, 26);
+    top:-300px;
+    left:300px;
+    z-index: 20;
+}
+#d5{
+    background-color: rgb(36, 240, 243);
+    top:-400px;
+    left:400px;
+    z-index: -3;
+}

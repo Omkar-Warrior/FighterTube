@@ -1,0 +1,48 @@
+li:first-child{
+    color: orange;
+}
+
+li:nth-child(even){
+    background-color: red;
+}
+
+
+.p1::before{
+   content: 'Note: ';
+   background-color: pink;
+   font-weight: bolder;
+   font-size: 40px;
+}
+
+.p2::after{
+   content: ' Thank You';
+   background-color: rgb(226, 37, 68);
+   font-weight: bolder;
+   font-size: 40px;
+   color: white;
+}
+
+
+div::selection{
+    background-color: rgb(231, 107, 12);
+}
+
+a{
+    margin-left: 90px;
+}
+
+.a1:link{
+    color: red;
+}
+
+.a2:active{
+    color: pink;
+}
+
+.a3:visited{
+    background-color: orchid;
+}
+
+a:hover{
+   color: aqua;
+}

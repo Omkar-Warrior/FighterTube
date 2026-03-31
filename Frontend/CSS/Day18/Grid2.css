@@ -1,0 +1,40 @@
+.container{
+    background-color: aqua;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: 80px 1fr 60px;
+    grid-template-areas: 
+    "header header"
+    "sidebar main "
+    "footer footer";
+    gap:10px;
+    height: 100vh;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+
+header{
+    grid-area: header;
+    background-color: lightgreen;
+    color: orangered;
+}
+
+
+aside{
+    grid-area: sidebar;
+    background-color: blueviolet;
+    color: brown;
+}
+main{
+    grid-area: main;
+    background-color: rgb(253, 5, 249);
+    color: rgb(8, 8, 8);
+}
+
+footer{
+    grid-area: footer;
+    background-color: black;
+    color: blanchedalmond;
+}

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Layout Page</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        .container{
+            display: grid;
+            grid-template-columns: 220px 1fr;
+            grid-template-rows: 70px 50px 1fr 60px;
+            grid-template-areas:
+            "header header"
+            "nav nav"
+            "sidebar main"
+            "footer footer";
+            height: 100vh;
+        }
+        .header{
+            grid-area: header;
+            background-color: #1e3a8a;
+            color:white;
+            display: flex;
+            align-items: center;
+            padding-left: 20px;
+        }
+        .nav{
+            grid-area: nav;
+            background-color: #2563eb;
+            display: flex;
+            align-items: center;
+            gap:20px;
+            pad: 20px;
+        }
+        .nav a{
+            color:white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .sidebar{
+            grid-area: sidebar;
+            background-color: #f1f5f9;
+            padding:20px;
+        }
+        .sidebar ul{
+            list-style: none;
+            padding: 0;
+        }
+        .sidebar li{
+            margin:10px 0;
+            cursor: pointer;
+        }
+        .main{
+            grid-area: main;
+            padding:20px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+            gap:20px;
+        }
+        .card{
+            background-color: #e0f2fe;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            font-weight: bold;
+        }
+        .footer{
+            grid-area: footer;
+            background-color: #1e293b;
+            color:white;
+            display: flex;
+            align-items: center;
+            justify-self: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <header class="header">
+            <h2>My Website</h2>
+        </header>
+        <nav class="nav">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
+        <aside class="sidebar">
+            <ul>
+                <li>Dashboard</li>
+                <li>Profile</li>
+                <li>Settings</li>
+                <li>logout</li>
+
+            </ul>
+        </aside>
+        <main class="main">
+            <div class="card">Card 1</div>
+            <div class="card">Card 2</div>
+            <div class="card">Card 3</div>
+            <div class="card">Card 4</div>
+        </main>
+        <footer class="footer">
+            <p>@2026 Upskill Computer Institute</p>
+        </footer>
+    </div>
+</body>
+</html>

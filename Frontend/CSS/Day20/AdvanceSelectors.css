@@ -1,0 +1,72 @@
+/* Adjecent Sibling Selector (+) :-> select immediate follows to first element */
+/* div+p{
+    color: red;
+}
+
+p+a{
+    color: orange;
+    border: 3px solid palevioletred;
+}
+
+a+p{
+    background-color: yellowgreen;
+} */
+
+
+
+
+
+
+/* Attribute Selectors */
+
+/* a[href="abc.html"]{
+    background-color: red;
+}
+
+input[type="email"]{
+    border: 4px solid orange;
+} */
+
+
+
+
+
+
+/* Direct Child (>) */
+/* 
+.div1{
+    border: 1px solid black;
+}
+.div2{
+    border: 1px solid rgb(244, 9, 9);
+}
+
+
+.div1>p{
+    color: blue;
+    border-radius: 30px;
+    background-color: antiquewhite;
+} */
+
+
+
+
+/* Descendent Child (space) all */
+/* .div1 p{
+    text-align: center;
+} */
+
+
+
+
+/* General Sibling Selector (~) */
+/* h3~p{
+    text-decoration: underline;
+    color: green;
+} */
+
+
+
+
+
+

@@ -1,0 +1,14 @@
+div{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: linear-gradient(red,blue,pink,yellow,orange,green);
+padding: 6px;
+}
+
+div img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}

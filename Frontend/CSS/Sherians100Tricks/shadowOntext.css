@@ -1,0 +1,6 @@
+h1{
+    font-size: 150px;
+    font-weight: bold;
+    -webkit-text-stroke: 4px rgb(252, 134, 7);
+    color: transparent;
+}

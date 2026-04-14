@@ -1,0 +1,7 @@
+h1{
+    background-image: url(./imageintext.webp);
+    background-clip: text;
+    color: transparent;
+    font-size: 300px;
+    text-align: center;
+}
